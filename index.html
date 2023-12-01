@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <a href="#home"><img src="google.svg" alt="logo" id="header-img" /></a>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section id="home">
+      <iframe
+        id="video"
+        src="https://www.youtube.com/embed/ncdpNR4xOT4?si=bC3q5fw1aNof5waJ&amp;controls=0&amp;start=1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="about">
+      <p>
+        Welcome to Google. We are dedicated to making the world's information
+        accessible and useful for everyone.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        Our mission is to organize the world's information and make it
+        universally accessible and useful. We strive to provide the best search
+        experience and innovative technologies that benefit people globally.
+      </p>
+
+      <h2>Our Team</h2>
+      <p>
+        We have a diverse and talented team working towards our mission. Meet
+        the people behind Google who are passionate about creating products and
+        services that positively impact the world.
+      </p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions, feel free to reach out to us at
+        contact@google.com.
+      </p>
+      <form id="form" action="success.html">
+        <div class="form-fields">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Your Email Here..."
+            required
+          />
+        </div>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </section>
+    <footer id="footer">
+      <p>&copy; 2023 Dev Harsh. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
